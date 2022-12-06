@@ -28,11 +28,39 @@
   color: #61dafb;
 }
 
+.blackText {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 2px #ffffff;
+}
+
+.whiteText {
+  color: rgb(255, 255, 255);
+  text-shadow: 6px 6px #000000;
+}
+
+.interactButton {
+  background-color: #7a7eee; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.interactButton:hover {
+  background-color: #0f0e11; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
